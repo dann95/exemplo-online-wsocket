@@ -1,0 +1,14 @@
+{
+  "name": "exemplo-online-wsocket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "um exemplo de websockets.",
+  "main": "server.js",
+  "author": "Daniel Rubin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2",
+    "mysql": "^2.12.0",
+    "socket.io": "^1.7.1"
+  }
+}
