@@ -22,7 +22,7 @@ io.on('connection', function(socket){
         socket.on('disconnect', function (data) {
             let query = 'UPDATE users SET online = 0 WHERE id = 1'
             connection.query(query, function(err, result){ })
-        });
+        })
 
     });
 
