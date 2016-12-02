@@ -15,7 +15,6 @@ io.on('connection', function(socket){
     console.log('cliente logado')
 
     socket.on('room', function(key){
-        console.log(key);
         let query = 'UPDATE users SET online = 1 WHERE id = 1'
         connection.query(query, function(err, result){ })
 
